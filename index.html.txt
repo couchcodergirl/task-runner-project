@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Project 3</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        
+    <body>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Pedro y Pepe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mobile-menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Outerwear</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Coats</a>
+                            <a class="dropdown-item" href="#">Jackets</a>
+                            <a class="dropdown-item" href="#">Furs</a>
+                        </div>   
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Jeans</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Short</a>
+                            <a class="dropdown-item" href="#">Long</a>
+                            <a class="dropdown-item" href="#">Medium</a>
+                        </div>   
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dresses</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Maxi</a>
+                            <a class="dropdown-item" href="#">Midi</a>
+                            <a class="dropdown-item" href="#">Coctail dresses</a>
+                        </div>   
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Bags and accessories</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Bags</a>
+                            <a class="dropdown-item" href="#">Scarves</a>
+                            <a class="dropdown-item" href="#">Jewellery</a>
+                        </div>   
+                    </li>                    
+                </ul>
+            </div>
+            <div class="btn-group ml-auto" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-info">Cart
+                    <i class="fas fa-shopping-cart"></i>    
+                  </button>
+                  <button type="button" class="btn btn-info">Account    
+                    <i class="fas fa-user"></i>
+                  </button>
+                  
+            </div>
+        </nav>
+        
+<div id="main-slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="w-100" src="https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+      <div class="carousel-caption">
+        <h1>Fashion</h1>
+        <h3>We know all about it</h3>
+        <a href="#" class="btn btn-primary">Come and see</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="w-100" src="https://images.pexels.com/photos/1036856/pexels-photo-1036856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+      <div class="carousel-caption">
+        <h1>Fashion</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="w-100" src="https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+      <div class="carousel-caption">
+        <h1>Now</h1>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#main-slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#main-slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<section class="products py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h2>Brands</h2>
+                <div class="list-group flex-sm-row flex-md-column">
+                    <a class="list-group-item list-group-item-action">Zara</a>
+                    <a class="list-group-item list-group-item-action">H&M</a>
+                    <a class="list-group-item list-group-item-action">New Look</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <h2>New Arrivals</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                            </div>
+                            <div class="card-body">
+                                <h5>Clutch</h5>
+                                <a class="btn btn-light">Get it!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/1214212/pexels-photo-1214212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                            </div>
+                            <div class="card-body">
+                                <h5>Bag</h5>
+                                <a class="btn btn-light">Get it!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/1936848/pexels-photo-1936848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                            </div>
+                            <div class="card-body">
+                                <h5>Brown Bag</h5>
+                                <a class="btn btn-light">Get it!</a>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="d-lg-none">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/934673/pexels-photo-934673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                            </div>
+                            <div class="card-body">
+                                <h5>Yellow Rucksack</h5>
+                                <a class="btn btn-light">Get it!</a>
+                            </div>
+                        </div>  
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</section> 
+<section class="lookbook py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3 justify-content-center align-items-center">
+                    <div class="card-image position-relative">
+                        <img src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                    </div>
+                    <div class="card-body position-absolute">
+                        <h5>Groovy Sneakers</h5>
+                        <a class="btn btn-light">I'm buying them!!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3 justify-content-center align-items-center">
+                    <div class="card-image position-relative">
+                        <img src="https://images.pexels.com/photos/975668/pexels-photo-975668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                    </div>
+                    <div class="card-body position-absolute">
+                        <h5>Funky Glasses</h5>
+                        <a class="btn btn-light">Get them fast!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card mb-3 justify-content-center align-items-center">
+                    <div class="card-image position-relative">
+                        <img src="https://images.pexels.com/photos/1460838/pexels-photo-1460838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                    </div>
+                    <div class="card-body position-absolute">
+                        <h5>Summer is coming</h5>
+                        <a class="btn btn-light">Wanna see more!</a>
+                    </div>
+            </div>        
+        </div>
+    </div>
+
+</section>
+
+<section class="delivery">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card p-3 mb-3">
+                    <div class="row">
+                        <div class="col-md-2 d-sm-none">
+                            <div class="icon">
+                                <i class="fas fa-truck pt-4 pl-3"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <h3>Fast delivery</h3>
+                                <p>Shipping worldwide, door-to-door</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card p-3 mb-3">
+                    <div class="row">
+                        <div class="col-md-2 d-sm-none">
+                            <div class="icon">
+                                <i class="fas fa-money-bill-wave-alt pt-4 pl-3"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <h3>60-day refund</h3>
+                                <p>Return anytime, no worries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card p-3 mb-3">
+                    <div class="row">
+                        <div class="col-md-2 d-sm-none">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt pt-4 pl-3"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <h3>24/7 support</h3>
+                                <p>Contact us any time you want, phone or email</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 order-sm-3 order-md-1">
+                <div class="card p-2 mb-3">
+                    <h4>Newsletter</h3>
+                    <h5>Subcribe now</h4>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email">
+                        <label for="exampleInputEmail"><p>We'll never share it with anyone else</p></label>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 order-sm-1 order-md-2">
+                <div class="card p-23 mb-3">
+                    <div class="card-body p-2 mb-3">
+                        <h4>Harbinger</h4>
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    </div>
+                    <div class="social-media pl-3">
+                        <i class="fab fa-facebook-f px-1"></i>
+                        <i class="fab fa-instagram px-1"></i>
+                        <i class="fab fa-twitter px-1"></i>
+                        <i class="fab fa-youtube px-1"></i>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-4 col-sm-12 order-sm-2 order-md-3">
+                <div class="card p-2 mb-3">
+                    <h4>Contact us</h4>
+                    <p>27 Old Gloucester Street<br>London WC1N 3AX</p>
+                    <a href="#">support@company.com</a>
+                </card>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="card text-center">
+        <div class="card-body">
+            <p class="card-text">© Emilia Piechocka 2020</p>
+        </div>
+    </div>
+</section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
